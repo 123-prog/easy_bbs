@@ -1,0 +1,9 @@
+<?php 
+session_start();
+header("Content-type:text/html;charset=utf-8");
+define('SQL_HOST','127.0.0.1');
+define('SQL_USER','root');
+define('SQL_PASSWORD','root');
+define('SQL_DATABASE','bbs');
+define('SQL_PORT','3306');
+?>
